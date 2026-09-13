@@ -4,8 +4,6 @@ const accountModel = require("../models/account.model")
 const emailService = require("../services/email.service")
 const mongoose = require("mongoose")
 
-
-
 async function createTransaction(req, res) {
 
     /**

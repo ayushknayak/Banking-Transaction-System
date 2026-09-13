@@ -14,8 +14,6 @@ app.use(
   })
 );
 
-app.options("*", cors({ origin: true, credentials: true }));
-
 const authRouter = require("./routes/auth.route.js");
 const accountRouter = require("./routes/account.route.js");
 const transactionRoutes = require("./routes/transaction.route.js");
